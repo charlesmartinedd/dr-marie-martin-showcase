@@ -1,0 +1,19 @@
+# Video files (large)
+output/*.mp4
+*.mp4
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+temp-audio.m4a
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep output directory structure but not large files
+!.gitkeep

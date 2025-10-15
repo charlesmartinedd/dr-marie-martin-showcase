@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Marie Martin - Computational Modeling Platform</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            width: 1920px;
+            height: 1080px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            padding: 60px;
+            max-width: 1400px;
+        }
+
+        .logo {
+            margin-bottom: 60px;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .logo svg {
+            width: 120px;
+            height: 120px;
+            filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
+        }
+
+        h1 {
+            font-size: 96px;
+            font-weight: 800;
+            margin-bottom: 40px;
+            line-height: 1.1;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .subtitle {
+            font-size: 72px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 80px;
+            text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 0.8s ease-out 0.4s both;
+        }
+
+        .brand-line {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            font-size: 48px;
+            font-weight: 600;
+            animation: fadeIn 0.8s ease-out 0.6s both;
+        }
+
+        .brand-item {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 20px 50px;
+            border-radius: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg viewBox="0 0 200 200" fill="none">
+                <circle cx="100" cy="100" r="90" stroke="white" stroke-width="4" opacity="0.3"/>
+                <circle cx="100" cy="100" r="50" fill="white" opacity="0.2"/>
+                <circle cx="100" cy="40" r="15" fill="white"/>
+                <circle cx="140" cy="100" r="15" fill="white"/>
+                <circle cx="100" cy="160" r="15" fill="white"/>
+                <circle cx="60" cy="100" r="15" fill="white"/>
+                <line x1="100" y1="55" x2="100" y2="85" stroke="white" stroke-width="3"/>
+                <line x1="125" y1="100" x2="115" y2="100" stroke="white" stroke-width="3"/>
+                <line x1="100" y1="145" x2="100" y2="115" stroke="white" stroke-width="3"/>
+                <line x1="75" y1="100" x2="85" y2="100" stroke="white" stroke-width="3"/>
+            </svg>
+        </div>
+
+        <h1>Dr. Marie Martin</h1>
+        <div class="subtitle">Computational Modeling Platform</div>
+
+        <div class="brand-line">
+            <div class="brand-item">Cell Collective</div>
+            <div class="brand-item">ModelIt</div>
+        </div>
+    </div>
+</body>
+</html>
