@@ -31,22 +31,22 @@ CLIPS = [
         "name": "clip1_computational_modeling",
         "start_time": "03:40:32",
         "end_time": "03:42:47",
-        "cover_slide": "coverslide1.html",  # Will be converted to image
+        "cover_slide": "coverslide1.html",
         "title": "Computational Modeling Platform"
     },
     {
-        "name": "clip2_pedagogy",
-        "start_time": "04:28:44",
-        "end_time": "04:29:45",
+        "name": "clip2_student_ambassadors",
+        "start_time": "03:42:58",
+        "end_time": "03:44:45",
         "cover_slide": "coverslide2.html",
-        "title": "Transforming School Pedagogy"
+        "title": "Student Ambassadors & K-12 Implementation"
     },
     {
-        "name": "clip3_ai_revolution",
-        "start_time": "00:07:09",
-        "end_time": "00:08:19",
+        "name": "clip3_teacher_army",
+        "start_time": "03:48:36",
+        "end_time": "03:50:40",
         "cover_slide": "coverslide3.html",
-        "title": "AI Revolution in Education"
+        "title": "Platform Demonstration & Teacher Army"
     }
 ]
 
