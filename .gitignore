@@ -1,6 +1,11 @@
-# Video files (large)
+# Video files (large) - exclude all except the ones we need
 output/*.mp4
 *.mp4
+
+# But include these specific videos
+!output/clip1_computational_modeling.mp4
+!output/clip2_student_ambassadors.mp4
+!output/clip3_teacher_army.mp4
 
 # Python cache
 __pycache__/
